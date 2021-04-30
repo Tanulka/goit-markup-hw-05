@@ -136,6 +136,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -170,6 +171,7 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact .contact-link:hover,
 .contact .contact-link:focus {
@@ -353,6 +355,7 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: var(--primary-white-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon-link:hover .social-icon-svg,
 .social-icon-link:focus .social-icon-svg {
@@ -367,6 +370,7 @@ img {
   width: 20px;
   height: 20px;
   fill: var(--social-icon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Постоянные клиенты */
@@ -385,6 +389,7 @@ img {
   border: 1px solid var(--social-icon-color);
   box-sizing: border-box;
   border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-icon-link:hover,
 .logo-icon-link:focus {
@@ -394,6 +399,7 @@ img {
   width: 106px;
   height: 60px;
   fill: var(--social-icon-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-icon-link:hover .icon-logo,
 .logo-icon-link:focus .icon-logo {
@@ -423,6 +429,7 @@ img {
 }
 .list .list-link {
   color: rgba(100%, 100%, 100%, 60%);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list .list-link:hover,
 .list-link:hover,
@@ -433,6 +440,7 @@ img {
 .list .list-not-link {
   color: var(--primary-white-color);
 }
+
 .icon-social-link:hover .icon-social-svg,
 .icon-social-link:focus .icon-social-svg {
   fill: var(--primary-white-color);
@@ -465,6 +473,7 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-social-svg {
   width: 20px;
@@ -490,12 +499,14 @@ img {
   letter-spacing: 0.03em;
   border: 0;
   border-radius: 4px;
-
   padding: 6px 22px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn:hover,
-.btn:focus {
+.btn-filter:hover,
+.btn-filter:focus {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -532,6 +543,7 @@ img {
 .portfolio-link {
   display: block;
   border: 1px solid #eeeeee;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
